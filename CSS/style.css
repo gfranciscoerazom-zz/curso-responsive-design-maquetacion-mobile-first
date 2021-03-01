@@ -7,6 +7,15 @@
         5. Otros
 */
 
+/*
+Forma rápida de resetear los estilos base del navegador
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+*/
+
 :root {
     /* Colores */
     --bitcoin-orange: #F7931A;
@@ -18,12 +27,6 @@
     --grey: #BABABA;
     --off-white: #FAF8F7;
     --white: #FFFFFF;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 html {
