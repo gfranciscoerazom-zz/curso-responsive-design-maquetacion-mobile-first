@@ -2,7 +2,7 @@
     Para acomodar los estilos css se puede usar esta convención:
         1. Posicionamiento
         2. Modelo de caja (Box model)
-        3. Tipografía
+        3. Texto
         4. Temas visuales
         5. Otros
 */
@@ -30,40 +30,62 @@ Forma rápida de resetear los estilos base del navegador
 }
 
 html {
+    /* Tamaño de fuente para usar rem */
     font-size: 62.5%;
+    
+    /* Tipografía principal */
     font-family: 'DM Sans', sans-serif;
 }
 
 header {
+    /* Posicionamiento */
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    /* Modelo de caja */
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 295px;
+
+    /* Texto */
     text-align: center;
+
+    /* Temas visuales */
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
 header .header--logo {
-    width: 151px;
-    height: 24px;
-    margin-top: 60px;
+    /* Posicionamiento */
+    margin-top: 39.03px;
     align-self: center;
+
+    /* Modelo de caja */
+    width: 128.57px;
+    height: 24.01px;
 }
 
 .header--title-container {
+    /* Posicionamiento */
+    margin-top: 32.97px;
+    align-self: center;
+
+    /* Modelo de caja */
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    height: 218;
-    margin-top: 33px;
+    height: 218px;
+
+    /* Texto */
     text-align: center;
-    align-self: center;
 }
 
 .header--title-container h1{
+    /* Posicionamiento */
+    margin: 0;
+
+    /* Texto */
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.6rem;
@@ -71,9 +93,49 @@ header .header--logo {
 }
 
 .header--title-container p {
+    /* Posicionamiento */
+    margin-top: 24px;
+    margin-bottom: 0;
+
+    /* Texto */
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-orange);
-    margin-top: 2.4rem;
+}
+
+.header--title-container button {
+    /* Posicionamiento */
+    position: relative;
+    top: 32px;
+
+    /* Modelo de caja */
+    padding: 12px 16px 12px 16px;
+    width: 229px;
+    height: 48px;
+
+    /* Texto */
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--warm-black);
+
+    /* Temas visuales */
+    border: none;
+    border-radius: 4px;
+    background-color: var(--off-white);
+        /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.header--title-container span {
+    /* Posicionamiento */
+    display: inline-block;
+    margin-left: 14px;
+
+    /* Modelo de caja */
+    width: 1.2rem;
+    height: 0.741rem;
+
+    /* Temas visuales */
+    background-image: url('../assets/icons/arrow-down.svg');
 }
