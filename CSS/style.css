@@ -154,9 +154,31 @@ main {
     text-align: center;
 }
 
+.main-exchange-container img {
+    width: 195px;
+    margin-bottom: 40px;
+}
+
 .main-exchange-container--title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 4.8rem auto;
+}
+
+.main-exchange-container--title h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.main-exchange-container--title p {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgba(117, 117, 117, 1);
 }
