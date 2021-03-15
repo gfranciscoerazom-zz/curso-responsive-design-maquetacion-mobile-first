@@ -218,3 +218,50 @@ main {
     text-align: left;
     background-color: var(--white);
 }
+
+.currency-table--container .table__B {
+    width: 50%;
+    padding: 11px 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: rgba(117,117,117,1);
+    background-color: var(--white);
+}
+
+.currency-table--container .down {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/arrow-trending-down.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.currency-table--container .up {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/arrow-trending-up.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.currency-table--container .table__A1 {
+    border-top-left-radius: 8px;
+}
+
+.currency-table--container .table__B1 {
+    border-top-right-radius: 8px;
+}
+
+.currency-table--container .table__A4 {
+    border-bottom-left-radius: 8px;
+}
+
+.currency-table--container .table__B4 {
+    border-bottom-right-radius: 8px;
+}
