@@ -265,3 +265,17 @@ main {
 .currency-table--container .table__B4 {
     border-bottom-right-radius: 8px;
 }
+
+.main-exchange-container .main-tables-container .currency-table--date {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    width: 173px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--soft-orange);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--warm-black1);
+}
