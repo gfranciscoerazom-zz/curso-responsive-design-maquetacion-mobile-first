@@ -412,3 +412,14 @@ main {
     line-height: 1.8rem;
     color: rgba(117,117,117,1);
 }
+
+.plans-container--card {
+    width: calc(59.375% - 32px);
+    max-width: 300px;
+    height: 223px;
+    margin: 0 auto;
+    padding: 0 16px 24px;
+    border-radius: 8px;
+    background-color: var(--white);
+    box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+}
