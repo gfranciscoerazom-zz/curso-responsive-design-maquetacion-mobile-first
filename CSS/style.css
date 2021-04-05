@@ -423,3 +423,63 @@ main {
     background-color: var(--white);
     box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
 }
+
+.plans-container--card .recomendado {
+    position: relative;
+    bottom: 16px;
+    width: 85px;
+    height: 15px;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--bitcoin-orange);
+}
+
+.plans-container--card h3 {
+    width: 73px;
+    height: 18px;
+    margin: 0 auto 8px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.plans-container--card .plan-card--price {
+    width: 77px;
+    height: 56px;
+    margin: 0 auto 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5.2rem;
+    line-height: 6.293rem;
+    letter-spacing: -0.08rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+.plans-container--card .plan-card--price span {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    vertical-align: text-top;
+}
+
+.plans-container--card .plan-card--saving {
+    height: 30px;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.452rem;
+    color: rgba(117, 117, 117, 1);
+}
