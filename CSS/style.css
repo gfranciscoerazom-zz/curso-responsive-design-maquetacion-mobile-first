@@ -443,7 +443,6 @@ main {
 }
 
 .plans-container--card h3 {
-    width: 73px;
     height: 18px;
     margin: 0 auto 8px;
     font-weight: 500;
@@ -482,4 +481,23 @@ main {
     font-size: 1.2rem;
     line-height: 1.452rem;
     color: rgba(117, 117, 117, 1);
+}
+
+.plans-container--card button {
+    width: 151px;
+    height: 48px;
+    padding: 0px 12px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.823rem;
+    border-radius: 4px;
+    color: var(--warm-black);
+    background-color: var(--off-white);
+    border: 2px solid rgba(247, 147, 26, 1);
+}
+
+.plans-container--card button img {
+    vertical-align: middle;
+    margin-left: 8px;
 }
