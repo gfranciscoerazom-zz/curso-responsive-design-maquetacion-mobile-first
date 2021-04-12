@@ -413,11 +413,22 @@ main {
     color: rgba(117,117,117,1);
 }
 
+.plans-container--slider {
+    display: flex;
+    gap: 8px;
+    height: 265px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans-container--card {
+    scroll-snap-align: center;
     width: calc(59.375% - 32px);
     max-width: 300px;
     height: 223px;
     margin: 0 auto;
+    margin-top: 16px;
     padding: 0 16px 24px;
     border-radius: 8px;
     background-color: var(--white);
@@ -440,6 +451,10 @@ main {
     text-align: center;
     color: var(--white);
     background-color: var(--bitcoin-orange);
+}
+
+.plans-container--card .no-recomendado {
+    padding-top: 31px;
 }
 
 .plans-container--card h3 {
