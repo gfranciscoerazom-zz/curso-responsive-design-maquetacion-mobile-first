@@ -416,6 +416,7 @@ main {
 .plans-container--slider {
     display: flex;
     gap: 8px;
+    margin: 0 8px;
     height: 265px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -515,4 +516,37 @@ main {
 .plans-container--card button img {
     vertical-align: middle;
     margin-left: 8px;
+}
+
+footer {
+    display: flex;
+    padding: 40px 58px 32px 65px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section {
+    width: 50%;
+}
+
+footer .left ul {
+    padding: 0;
+}
+
+footer .left li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+footer .left a {
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+
+footer .right {
+    text-align: right;
+    padding-top: 11px;
 }
