@@ -21,3 +21,14 @@ Initially, we developed the platform for our own use (we do arbitrage), so we di
 ## Long term goal
 
 We aim to **be the place where every crypto investor will use to have useful information and tools** in order to improve their operations.
+
+## Own comment
+
+Escribiré esta parte en español por ser mi lengua materna :D. Se que me falta mucho pera ser un desarrollador profecional, que tengo algunos errores, me faltan cosas por pulir, etc. pero igualmente quiero dar las gracias a Platzi y al profesor Diego Degranda por hacer este maravilloso curso y espero nunca parar de aprender :3.
+
+## Things left to do
+
+- [ ] Put the images with absolute urls.
+- [ ] Make that the price table stays in the center.
+- [ ] Defind the specific with and height of the images.
+- [ ] Make some adjustments to use de web in bigger screens.
